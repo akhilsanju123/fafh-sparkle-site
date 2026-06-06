@@ -17,9 +17,9 @@ export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Gallery — Campus Life at Holy Fathima High School" },
-      { name: "description", content: "A glimpse into life at Holy Fathima High School, Hafeezpet — classrooms, campus events and student moments." },
+      { name: "description", content: "A glimpse into life at Holy Fathima High School, New Hafeezpet — classrooms, campus events and student moments." },
       { property: "og:title", content: "Gallery — Holy Fathima High School" },
-      { property: "og:description", content: "Photos of our campus, classrooms, events and student life in Hafeezpet, Hyderabad." },
+      { property: "og:description", content: "Photos of our campus, classrooms, events and student life in New Hafeezpet, Hyderabad." },
       { property: "og:image", content: campus },
     ],
   }),

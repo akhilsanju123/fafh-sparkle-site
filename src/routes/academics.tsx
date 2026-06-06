@@ -9,7 +9,7 @@ export const Route = createFileRoute("/academics")({
   head: () => ({
     meta: [
       { title: "Academics — Programs from Nursery to 10th | Holy Fathima High School" },
-      { name: "description", content: "Explore our English-medium academic programs at Holy Fathima High School, Hafeezpet — Nursery to 5th (CBSE), 6th to 10th (SSC), Abacus for 1st–5th and IIT Foundation for 5th–10th." },
+      { name: "description", content: "Explore our English-medium academic programs at Holy Fathima High School, New Hafeezpet — Nursery to 5th (CBSE), 6th to 10th (SSC), Abacus for 1st–5th and IIT Foundation for 5th–10th." },
       { property: "og:title", content: "Academic Programs — Holy Fathima High School" },
       { property: "og:description", content: "A complete educational journey from Nursery to Class 10 with CBSE primary, SSC high school, plus Abacus and IIT Foundation programs." },
     ],

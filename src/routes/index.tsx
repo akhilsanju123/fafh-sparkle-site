@@ -8,10 +8,10 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Holy Fathima High School, Hafeez Pet — English-medium School in Hyderabad" },
-      { name: "description", content: "Premium English-medium school in Hafeezpet, Hyderabad. Nursery to Class 10 — CBSE primary, SSC high school, plus Abacus and IIT Foundation. Admissions open." },
-      { property: "og:title", content: "Holy Fathima High School, Hafeez Pet" },
-      { property: "og:description", content: "Building bright futures since 1989. English-medium education from Nursery to Class 10 in Hafeezpet, Hyderabad." },
+      { title: "Holy Fathima High School, New Hafeezpet — English-medium School in Hyderabad" },
+      { name: "description", content: "Premium English-medium school in New Hafeezpet, Hyderabad. Nursery to Class 10 — CBSE primary, SSC high school, plus Abacus and IIT Foundation. Admissions open." },
+      { property: "og:title", content: "Holy Fathima High School, New Hafeezpet" },
+      { property: "og:description", content: "Building bright futures since 1989. English-medium education from Nursery to Class 10 in New Hafeezpet, Hyderabad." },
     ],
   }),
   component: Home,

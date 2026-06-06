@@ -30,7 +30,7 @@ export function Footer() {
             </div>
             <p className="mt-4 text-sm text-white/75 leading-relaxed">
               Building bright futures since {SCHOOL.established}. English-medium education
-              from Nursery through Class 10 in the heart of Hafeezpet, Hyderabad.
+              from Nursery through Class 10 in the heart of New Hafeezpet, Hyderabad.
             </p>
             <div className="mt-5 flex gap-3">
               <a href={SCHOOL.facebook} target="_blank" rel="noreferrer" aria-label="Facebook" className="size-9 grid place-items-center rounded-full bg-white/10 hover:bg-[color:var(--gold)] hover:text-[color:var(--navy)] transition"><Facebook className="size-4" /></a>
@@ -85,7 +85,7 @@ export function Footer() {
         <div className="border-t border-white/10">
           <div className="mx-auto max-w-7xl px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/60">
             <p>© {new Date().getFullYear()} {SCHOOL.name}. All rights reserved.</p>
-            <p>Knowledge is Power · Hafeez Pet, Hyderabad</p>
+            <p>Knowledge is Power · New Hafeezpet, Hyderabad</p>
           </div>
         </div>
       </div>

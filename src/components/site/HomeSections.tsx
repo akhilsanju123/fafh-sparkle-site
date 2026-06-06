@@ -62,7 +62,7 @@ export function AboutSection() {
             align="left"
             eyebrow="About Our School"
             title={<>Where every child becomes <span className="text-gradient-gold">extraordinary</span></>}
-            description={`Established in ${SCHOOL.established}, Holy Fathima High School has been a trusted name in education at Hafeezpet, Hyderabad. We blend academic rigour with character building to prepare students for a confident future.`}
+            description={`Established in ${SCHOOL.established}, Holy Fathima High School has been a trusted name in education at New Hafeezpet, Hyderabad. We blend academic rigour with character building to prepare students for a confident future.`}
           />
           <ul className="mt-6 space-y-3">
             {[

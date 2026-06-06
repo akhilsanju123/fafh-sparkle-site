@@ -12,8 +12,8 @@ import { SCHOOL } from "@/lib/school";
 export const Route = createFileRoute("/admissions")({
   head: () => ({
     meta: [
-      { title: "Admissions Open 2026–27 — Holy Fathima High School, Hafeez Pet" },
-      { name: "description", content: "Admissions open at Holy Fathima High School, Hafeezpet. Apply for Nursery, Preschool, Kindergarten, CBSE Primary (1–5) or SSC High School (6–10)." },
+      { title: "Admissions Open 2026–27 — Holy Fathima High School, New Hafeezpet" },
+      { name: "description", content: "Admissions open at Holy Fathima High School, New Hafeezpet. Apply for Nursery, Preschool, Kindergarten, CBSE Primary (1–5) or SSC High School (6–10)." },
       { property: "og:title", content: "Admissions — Holy Fathima High School" },
       { property: "og:description", content: "Secure your child's seat for the upcoming academic year. Limited seats across all classes." },
     ],
