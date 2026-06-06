@@ -10,10 +10,10 @@ import { SCHOOL, BRANCHES } from "@/lib/school";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Us — Holy Fathima High School, Hafeez Pet" },
-      { name: "description", content: "Get in touch with Holy Fathima High School. Address: 4-1061/84, New Hafeezpet, Hyderabad. Phone: 9391668092 / 8121731765 / 9391837245." },
+      { title: "Contact Us — Holy Fathima High School, New Hafeezpet" },
+      { name: "description", content: "Get in touch with Holy Fathima High School. Address: 4-1061/84, New New Hafeezpet, Hyderabad. Phone: 9391668092 / 8121731765 / 9391837245." },
       { property: "og:title", content: "Contact Holy Fathima High School" },
-      { property: "og:description", content: "Reach our admissions team in Hafeezpet, Hyderabad — call, email or visit our campus." },
+      { property: "og:description", content: "Reach our admissions team in New Hafeezpet, Hyderabad — call, email or visit our campus." },
     ],
   }),
   component: ContactPage,
@@ -43,7 +43,7 @@ function ContactPage() {
       <section className="py-16 px-4">
         <div className="mx-auto max-w-7xl">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-[color:var(--navy)] text-center">Our <span className="text-gradient-gold">Campuses</span></h2>
-          <p className="mt-2 text-center text-muted-foreground">Visit us at our campus in Hafeezpet, Hyderabad.</p>
+          <p className="mt-2 text-center text-muted-foreground">Visit us at our campus in New Hafeezpet, Hyderabad.</p>
           <div className="mt-10 grid lg:grid-cols-2 gap-8">
             {BRANCHES.map((b) => (
               <div key={b.id} className="glass rounded-3xl p-6 shadow-glow flex flex-col">

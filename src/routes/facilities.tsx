@@ -10,7 +10,7 @@ export const Route = createFileRoute("/facilities")({
       { title: "Facilities — Smart Classrooms, Labs, Library & Sports | Holy Fathima High School" },
       { name: "description", content: "Modern facilities at Holy Fathima High School — smart classrooms, science & computer labs, library, sports, transport and CCTV-monitored safe campus." },
       { property: "og:title", content: "Facilities at Holy Fathima High School" },
-      { property: "og:description", content: "Everything a modern learner needs — labs, library, sports, transport and a safe campus in Hafeezpet, Hyderabad." },
+      { property: "og:description", content: "Everything a modern learner needs — labs, library, sports, transport and a safe campus in New Hafeezpet, Hyderabad." },
     ],
   }),
   component: FacilitiesPage,
