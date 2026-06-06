@@ -12,7 +12,7 @@ export const SCHOOL = {
   email: "holyfathimahighschool1992@gmail.com",
   whatsapp: "919391668092",
   mapEmbed:
-    "https://www.google.com/maps?q=Marthanda+Nagar,+New Hafeezpet,+Hyderabad,+Telangana+500049&output=embed",
+    "https://www.google.com/maps?q=Marthanda+Nagar,+New+Hafeezpet,+Hyderabad,+Telangana+500049&output=embed",
   facebook: "https://www.facebook.com/profile.php?id=61560533938458",
   instagram: "https://www.instagram.com/holyfathimahighschool.mn/",
 };
@@ -39,7 +39,7 @@ export const BRANCHES: Branch[] = [
     phones: ["9391668092"],
     image: marthandaImg,
     mapEmbed:
-      "https://www.google.com/maps?q=Marthanda+Nagar,+New Hafeezpet,+Hyderabad&output=embed",
+      "https://www.google.com/maps?q=Marthanda+Nagar,+New+Hafeezpet,+Hyderabad&output=embed",
   },
   {
     id: "aditya-nagar",
@@ -48,7 +48,7 @@ export const BRANCHES: Branch[] = [
     phones: ["9391668092"],
     image: adityaImg,
     mapEmbed:
-      "https://www.google.com/maps?q=Aditya+Nagar,+New Hafeezpet,+Hyderabad&output=embed",
+      "https://www.google.com/maps?q=Aditya+Nagar,+New+Hafeezpet,+Hyderabad&output=embed",
   },
   {
     id: "prem-nagar",
@@ -57,7 +57,7 @@ export const BRANCHES: Branch[] = [
     phones: ["9391668092"],
     image: premImg,
     mapEmbed:
-      "https://www.google.com/maps?q=Prem+Nagar,+New Hafeezpet,+Hyderabad&output=embed",
+      "https://www.google.com/maps?q=Prem+Nagar,+New+Hafeezpet,+Hyderabad&output=embed",
   },
   {
     id: "indra-reddy-nagar",
