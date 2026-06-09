@@ -1,8 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { SCHOOL, BRANCHES } from "@/lib/school";
-import { MapPin, Phone } from "lucide-react";
+import { MapPin, Phone, ExternalLink } from "lucide-react";
 import campus from "@/assets/marthanda-nagar.jpg";
+
+const MAIN_BRANCH_MAPS_URL = "https://share.google/2aYsLAgXmeQJweWO6";
 
 export const Route = createFileRoute("/branches")({
   head: () => ({
