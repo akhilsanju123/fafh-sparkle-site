@@ -49,6 +49,17 @@ function BranchesPage() {
                     ))}
                   </span>
                 </div>
+                {b.id === "marthanda-nagar" && (
+                  <a
+                    href={MAIN_BRANCH_MAPS_URL}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-4 inline-flex items-center gap-2 rounded-xl bg-[color:var(--royal)] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[color:var(--navy)] transition w-fit"
+                  >
+                    <ExternalLink className="size-4" />
+                    Open in Maps — Main Branch
+                  </a>
+                )}
                 <div className="mt-5 rounded-2xl overflow-hidden border border-border flex-1 min-h-[200px]">
                   <iframe title={b.name} src={b.mapEmbed} className="w-full h-full min-h-[200px] border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                 </div>
