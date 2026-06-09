@@ -58,6 +58,42 @@ function AcademicsPage() {
         </div>
       </section>
 
+      <section className="py-16 px-4 bg-muted/30">
+        <div className="mx-auto max-w-5xl">
+          <SectionHeading eyebrow="Academic Calendar" title={<>Examination <span className="text-gradient-gold">Schedule</span></>} description="Plan ahead with our formative and summative assessment timeline for the academic year 2026–27." />
+          <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+            className="mt-10 overflow-hidden rounded-3xl border border-border bg-card shadow-glow">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left">
+                <thead className="gradient-royal text-white">
+                  <tr>
+                    <th className="px-6 py-4 font-display text-base sm:text-lg">Type of Assessment</th>
+                    <th className="px-6 py-4 font-display text-base sm:text-lg">Schedule</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border">
+                  {[
+                    ["Formative Assessment (FA)-1", "By 31.07.2026"],
+                    ["Formative Assessment (FA)-2", "By 21.09.2026"],
+                    ["Summative Assessment (SA)-1", "01.10.2026 to 09.10.2026"],
+                    ["Formative Assessment (FA)-3", "By 10.12.2026"],
+                    ["Formative Assessment (FA)-4", "By 27.01.2027 for Class X & 15.02.2027 for Classes I to IX"],
+                    ["Summative Assessment (SA)-2 (Classes I to IX)", "09.04.2027 to 19.04.2027"],
+                    ["Pre-final for Class X", "Before 28.02.2027"],
+                    ["SSC Board Examinations", "March, 2027"],
+                  ].map(([type, schedule]) => (
+                    <tr key={type} className="hover:bg-[color:var(--gold)]/5 transition-colors">
+                      <td className="px-6 py-4 font-medium text-[color:var(--navy)]">{type}</td>
+                      <td className="px-6 py-4 text-muted-foreground">{schedule}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       <section className="py-16 px-4">
         <div className="mx-auto max-w-7xl rounded-3xl gradient-royal text-white p-10 sm:p-14 text-center shadow-glow">
           <h3 className="font-display text-3xl sm:text-4xl font-bold">Curious about our curriculum?</h3>
