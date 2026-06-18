@@ -10,14 +10,15 @@ import { SectionHeading } from "./SectionHeading";
 import { Counter } from "./Counter";
 import { SCHOOL } from "@/lib/school";
 import campus from "@/assets/marthanda-nagar.jpg";
-import activity1 from "@/assets/activity-1.png";
-import activity2 from "@/assets/activity-2.png";
-import activity3 from "@/assets/activity-3.png";
-import activity4 from "@/assets/activity-4.png";
-import activity5 from "@/assets/activity-5.png";
-import activity6 from "@/assets/activity-6.png";
-import activity7 from "@/assets/activity-7.png";
-import activity8 from "@/assets/activity-8.png";
+import schoolEvent1 from "@/assets/uploads/school-event-1.png.asset.json";
+import schoolAchievement1 from "@/assets/uploads/school-achievement-1.png.asset.json";
+import classroomCircle1 from "@/assets/uploads/classroom-circle-1.png.asset.json";
+import awardCeremony1 from "@/assets/uploads/award-ceremony-1.png.asset.json";
+import certificates1 from "@/assets/uploads/certificates-1.png.asset.json";
+import exhibitionModel1 from "@/assets/uploads/exhibition-model-1.png.asset.json";
+import montessoriClass1 from "@/assets/uploads/montessori-class-1.png.asset.json";
+import culturalEvent1 from "@/assets/uploads/cultural-event-1.png.asset.json";
+import storytelling1 from "@/assets/uploads/storytelling-1.png.asset.json";
 
 export function AnnouncementTicker() {
   const items = [
@@ -52,9 +53,9 @@ export function AboutSection() {
           <div className="absolute -inset-4 gradient-gold rounded-3xl opacity-30 blur-2xl" />
           <div className="relative grid grid-cols-5 grid-rows-6 gap-3 h-[520px]">
             <img src={campus} alt="Holy Fathima school building" className="col-span-3 row-span-4 rounded-3xl object-cover w-full h-full shadow-glow" />
-            <img src={activity3} alt="Students learning together in classroom" className="col-span-2 row-span-3 rounded-3xl object-cover w-full h-full" />
-            <img src={activity4} alt="Interactive classroom activity" className="col-span-2 row-span-3 rounded-3xl object-cover w-full h-full" />
-            <img src={activity1} alt="Montessori learning activity" className="col-span-3 row-span-2 rounded-3xl object-cover w-full h-full" />
+            <img src={classroomCircle1.url} alt="Students learning together in classroom" className="col-span-2 row-span-3 rounded-3xl object-cover w-full h-full" />
+            <img src={montessoriClass1.url} alt="Interactive classroom activity" className="col-span-2 row-span-3 rounded-3xl object-cover w-full h-full" />
+            <img src={schoolEvent1.url} alt="Montessori learning activity" className="col-span-3 row-span-2 rounded-3xl object-cover w-full h-full" />
           </div>
         </motion.div>
         <div>
@@ -234,13 +235,13 @@ export function WhyChooseSection() {
 export function GalleryPreview() {
   const images = [
     { src: campus, label: "Main Building" },
-    { src: activity1, label: "Montessori Activity" },
-    { src: activity2, label: "Circle Learning" },
-    { src: activity3, label: "Reading Time" },
-    { src: activity4, label: "Interactive Learning" },
-    { src: activity5, label: "Practice Session" },
-    { src: activity7, label: "Exhibition" },
-    { src: activity8, label: "Sports Parade" },
+    { src: classroomCircle1.url, label: "Classroom Circle Learning" },
+    { src: montessoriClass1.url, label: "Montessori Activity" },
+    { src: storytelling1.url, label: "Story Presentation" },
+    { src: schoolAchievement1.url, label: "State Level Achievement" },
+    { src: exhibitionModel1.url, label: "Exhibition Model" },
+    { src: schoolEvent1.url, label: "School Stage Performance" },
+    { src: culturalEvent1.url, label: "Cultural Program" },
   ];
   return (
     <section className="py-20 sm:py-28 px-4">
@@ -277,10 +278,10 @@ export function GalleryPreview() {
 }
 
 const testimonials = [
-  { name: "Mrs. Anjali Reddy", role: "Parent of Class 5", quote: "The teachers genuinely care about each child. My daughter has grown so confident since joining Holy Fathima.", img: activity3 },
-  { name: "Mr. Imran Khan", role: "Parent of Class 9", quote: "Excellent academics combined with strong values. The campus is safe and the staff is always approachable.", img: activity1 },
-  { name: "Sneha S.", role: "Alumna, Class 10", quote: "Holy Fathima shaped who I am today. The faculty pushed me to dream big and gave me the tools to get there.", img: activity7 },
-  { name: "Mr. Ramesh Naidu", role: "Parent of UKG", quote: "Best decision we made. The play-based learning has my son excited to go to school every single day.", img: activity4 },
+  { name: "Mrs. Anjali Reddy", role: "Parent of Class 5", quote: "The teachers genuinely care about each child. My daughter has grown so confident since joining Holy Fathima.", img: classroomCircle1.url },
+  { name: "Mr. Imran Khan", role: "Parent of Class 9", quote: "Excellent academics combined with strong values. The campus is safe and the staff is always approachable.", img: schoolEvent1.url },
+  { name: "Sneha S.", role: "Alumna, Class 10", quote: "Holy Fathima shaped who I am today. The faculty pushed me to dream big and gave me the tools to get there.", img: exhibitionModel1.url },
+  { name: "Mr. Ramesh Naidu", role: "Parent of UKG", quote: "Best decision we made. The play-based learning has my son excited to go to school every single day.", img: montessoriClass1.url },
 ];
 
 export function TestimonialsSection() {
@@ -347,9 +348,9 @@ export function AdmissionsCTA() {
 }
 
 const news = [
-  { date: "Mar 12", title: "Annual Day 2026 — A celebration of talent", desc: "Students dazzled the audience with performances across music, dance, and drama.", img: activity6 },
-  { date: "Feb 24", title: "Inter-school science exhibition winners", desc: "Our Class 9 team brought home the gold in the regional science fair.", img: activity7 },
-  { date: "Jan 15", title: "Parent-Teacher Workshop on digital safety", desc: "An interactive session on raising children in the digital era.", img: activity3 },
+  { date: "Mar 12", title: "Annual Day 2026 — A celebration of talent", desc: "Students dazzled the audience with performances across music, dance, and drama.", img: culturalEvent1.url },
+  { date: "Feb 24", title: "Inter-school science exhibition winners", desc: "Our Class 9 team brought home the gold in the regional science fair.", img: exhibitionModel1.url },
+  { date: "Jan 15", title: "Parent-Teacher Workshop on digital safety", desc: "An interactive session on raising children in the digital era.", img: certificates1.url },
 ];
 
 export function NewsSection() {
