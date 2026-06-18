@@ -58,7 +58,7 @@ function GalleryPage() {
       <section className="py-16 px-4">
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-wrap justify-center gap-2">
-            {(["All", "Campus", "Classrooms", "Facilities", "Events"] as const).map((f) => (
+            {(["All", "Campus", "Classrooms", "Facilities", "Events", "Achievements"] as const).map((f) => (
               <button key={f} onClick={() => setFilter(f)}
                 className={`px-5 py-2 rounded-full text-sm font-semibold transition ${filter === f ? "gradient-royal text-white shadow-glow" : "bg-card border border-border hover:border-[color:var(--gold)]"}`}>
                 {f}
