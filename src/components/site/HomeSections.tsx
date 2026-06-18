@@ -10,14 +10,15 @@ import { SectionHeading } from "./SectionHeading";
 import { Counter } from "./Counter";
 import { SCHOOL } from "@/lib/school";
 import campus from "@/assets/marthanda-nagar.jpg";
-import activity1 from "@/assets/activity-1.png";
-import activity2 from "@/assets/activity-2.png";
-import activity3 from "@/assets/activity-3.png";
-import activity4 from "@/assets/activity-4.png";
-import activity5 from "@/assets/activity-5.png";
-import activity6 from "@/assets/activity-6.png";
-import activity7 from "@/assets/activity-7.png";
-import activity8 from "@/assets/activity-8.png";
+import schoolEvent1 from "@/assets/uploads/school-event-1.png.asset.json";
+import schoolAchievement1 from "@/assets/uploads/school-achievement-1.png.asset.json";
+import classroomCircle1 from "@/assets/uploads/classroom-circle-1.png.asset.json";
+import awardCeremony1 from "@/assets/uploads/award-ceremony-1.png.asset.json";
+import certificates1 from "@/assets/uploads/certificates-1.png.asset.json";
+import exhibitionModel1 from "@/assets/uploads/exhibition-model-1.png.asset.json";
+import montessoriClass1 from "@/assets/uploads/montessori-class-1.png.asset.json";
+import culturalEvent1 from "@/assets/uploads/cultural-event-1.png.asset.json";
+import storytelling1 from "@/assets/uploads/storytelling-1.png.asset.json";
 
 export function AnnouncementTicker() {
   const items = [

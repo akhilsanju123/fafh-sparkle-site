@@ -29,7 +29,7 @@ const steps = [
 ];
 
 const docs = [
-  "Birth certificate of the child",
+  "Birth certificate of the student",
   "Previous school transfer certificate (if applicable)",
   "Aadhar card copy of student and parents",
   "Recent passport-size photographs",

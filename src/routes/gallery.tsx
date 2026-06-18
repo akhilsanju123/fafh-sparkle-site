@@ -4,14 +4,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import { PageHero } from "@/components/site/PageHero";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import campus from "@/assets/marthanda-nagar.jpg";
-import activity1 from "@/assets/activity-1.png";
-import activity2 from "@/assets/activity-2.png";
-import activity3 from "@/assets/activity-3.png";
-import activity4 from "@/assets/activity-4.png";
-import activity5 from "@/assets/activity-5.png";
-import activity6 from "@/assets/activity-6.png";
-import activity7 from "@/assets/activity-7.png";
-import activity8 from "@/assets/activity-8.png";
+import schoolEvent1 from "@/assets/uploads/school-event-1.png.asset.json";
+import schoolAchievement1 from "@/assets/uploads/school-achievement-1.png.asset.json";
+import classroomCircle1 from "@/assets/uploads/classroom-circle-1.png.asset.json";
+import awardCeremony1 from "@/assets/uploads/award-ceremony-1.png.asset.json";
+import certificates1 from "@/assets/uploads/certificates-1.png.asset.json";
+import exhibitionModel1 from "@/assets/uploads/exhibition-model-1.png.asset.json";
+import montessoriClass1 from "@/assets/uploads/montessori-class-1.png.asset.json";
+import culturalEvent1 from "@/assets/uploads/cultural-event-1.png.asset.json";
+import storytelling1 from "@/assets/uploads/storytelling-1.png.asset.json";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -26,18 +27,19 @@ export const Route = createFileRoute("/gallery")({
   component: GalleryPage,
 });
 
-type Item = { src: string; cat: "Campus" | "Classrooms" | "Facilities" | "Events"; label: string };
+type Item = { src: string; cat: "Campus" | "Classrooms" | "Facilities" | "Events" | "Achievements"; label: string };
 
 const all: Item[] = [
   { src: campus, cat: "Campus", label: "Main Building" },
-  { src: activity1, cat: "Classrooms", label: "Montessori Activity" },
-  { src: activity2, cat: "Classrooms", label: "Circle Learning" },
-  { src: activity3, cat: "Classrooms", label: "Reading Time" },
-  { src: activity4, cat: "Classrooms", label: "Interactive Learning" },
-  { src: activity5, cat: "Facilities", label: "Practice Session" },
-  { src: activity6, cat: "Events", label: "School Gathering" },
-  { src: activity7, cat: "Events", label: "Exhibition" },
-  { src: activity8, cat: "Events", label: "Sports Parade" },
+  { src: classroomCircle1.url, cat: "Classrooms", label: "Classroom Circle Learning" },
+  { src: montessoriClass1.url, cat: "Classrooms", label: "Montessori Classroom Activity" },
+  { src: storytelling1.url, cat: "Classrooms", label: "Story Presentation" },
+  { src: schoolAchievement1.url, cat: "Achievements", label: "State Level Carnival Achievement" },
+  { src: awardCeremony1.url, cat: "Achievements", label: "Award Ceremony" },
+  { src: certificates1.url, cat: "Achievements", label: "Student Certificates" },
+  { src: exhibitionModel1.url, cat: "Facilities", label: "Student Exhibition Model" },
+  { src: schoolEvent1.url, cat: "Events", label: "School Stage Performance" },
+  { src: culturalEvent1.url, cat: "Events", label: "Cultural Program" },
 ];
 
 function GalleryPage() {
