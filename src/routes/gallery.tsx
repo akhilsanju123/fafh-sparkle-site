@@ -53,7 +53,7 @@ function GalleryPage() {
 
   return (
     <>
-      <PageHero eyebrow="Gallery" title={<>Moments from our <span className="text-gradient-gold">vibrant campus</span></>} description="A peek into the everyday life that makes Holy Fathima a special place to learn and grow." image={activity3} />
+      <PageHero eyebrow="Gallery" title={<>Moments from our <span className="text-gradient-gold">vibrant campus</span></>} description="A peek into the everyday life that makes Holy Fathima a special place to learn and grow." image={classroomCircle1.url} />
 
       <section className="py-16 px-4">
         <div className="mx-auto max-w-7xl">
