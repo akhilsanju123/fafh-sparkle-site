@@ -10,15 +10,23 @@ import { SectionHeading } from "./SectionHeading";
 import { Counter } from "./Counter";
 import { SCHOOL } from "@/lib/school";
 import campus from "@/assets/marthanda-nagar.jpg";
-import schoolEvent1 from "@/assets/uploads/school-event-1.png.asset.json";
-import schoolAchievement1 from "@/assets/uploads/school-achievement-1.png.asset.json";
-import classroomCircle1 from "@/assets/uploads/classroom-circle-1.png.asset.json";
-import awardCeremony1 from "@/assets/uploads/award-ceremony-1.png.asset.json";
-import certificates1 from "@/assets/uploads/certificates-1.png.asset.json";
-import exhibitionModel1 from "@/assets/uploads/exhibition-model-1.png.asset.json";
-import montessoriClass1 from "@/assets/uploads/montessori-class-1.png.asset.json";
-import culturalEvent1 from "@/assets/uploads/cultural-event-1.png.asset.json";
-import storytelling1 from "@/assets/uploads/storytelling-1.png.asset.json";
+import a1 from "@/assets/activity-1.png";
+import a2 from "@/assets/activity-2.png";
+import a3 from "@/assets/activity-3.png";
+import a4 from "@/assets/activity-4.png";
+import a5 from "@/assets/activity-5.png";
+import a6 from "@/assets/activity-6.png";
+import a7 from "@/assets/activity-7.png";
+import a8 from "@/assets/activity-8.png";
+const schoolEvent1 = { url: a1 };
+const schoolAchievement1 = { url: a2 };
+const classroomCircle1 = { url: a3 };
+const awardCeremony1 = { url: a4 };
+const certificates1 = { url: a5 };
+const exhibitionModel1 = { url: a6 };
+const montessoriClass1 = { url: a7 };
+const culturalEvent1 = { url: a8 };
+const storytelling1 = { url: a1 };
 
 export function AnnouncementTicker() {
   const items = [
