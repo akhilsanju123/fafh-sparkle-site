@@ -5,14 +5,6 @@ import { MapPin, Phone, ExternalLink } from "lucide-react";
 import campus from "@/assets/marthanda-nagar.jpg";
 
 export const Route = createFileRoute("/branches")({
-  head: () => ({
-    meta: [
-      { title: "Our Branches — Holy Fathima High School" },
-      { name: "description", content: "Visit any of our four campuses — Marthanda Nagar (Main), Aditya Nagar, Prem Nagar and Indra Reddy Nagar (Kollur)." },
-      { property: "og:title", content: "Branches — Holy Fathima High School" },
-      { property: "og:description", content: "Four campuses serving New Hafeezpet, Hyderabad and Kollur." },
-    ],
-  }),
   component: BranchesPage,
 });
 

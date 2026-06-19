@@ -11,15 +11,6 @@ import { SCHOOL } from "@/lib/school";
 import { Eye, Target, HeartHandshake } from "lucide-react";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About Us — Holy Fathima High School, New Hafeezpet" },
-      { name: "description", content: "Established in 1989, Holy Fathima High School is a trusted English-medium school in New Hafeezpet, Hyderabad offering Nursery to Class 10 — CBSE primary and SSC high school." },
-      { property: "og:title", content: "About Holy Fathima High School" },
-      { property: "og:description", content: "A 20+ year legacy of academic excellence and character building in New Hafeezpet, Hyderabad." },
-      { property: "og:image", content: campus },
-    ],
-  }),
   component: AboutPage,
 });
 
