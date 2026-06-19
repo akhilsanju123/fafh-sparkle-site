@@ -12,6 +12,21 @@ import a5 from "@/assets/activity-5.png";
 import a6 from "@/assets/activity-6.png";
 import a7 from "@/assets/activity-7.png";
 import a8 from "@/assets/activity-8.png";
+import a9 from "@/assets/activity-9.jpeg";
+import a10 from "@/assets/activity-10.jpeg";
+import a11 from "@/assets/activity-11.jpeg";
+import a12 from "@/assets/activity-12.jpeg";
+import a13 from "@/assets/activity-13.jpeg";
+import a14 from "@/assets/activity-14.jpeg";
+import a15 from "@/assets/activity-15.jpeg";
+import a16 from "@/assets/activity-16.jpeg";
+import a17 from "@/assets/activity-17.jpeg";
+import a18 from "@/assets/activity-18.jpeg";
+import a19 from "@/assets/activity-19.jpeg";
+import a20 from "@/assets/activity-20.jpeg";
+import a21 from "@/assets/activity-21.jpeg";
+import a22 from "@/assets/activity-22.jpeg";
+import a23 from "@/assets/activity-23.jpeg";
 const schoolEvent1 = { url: a1 };
 const schoolAchievement1 = { url: a2 };
 const classroomCircle1 = { url: a3 };
@@ -20,7 +35,22 @@ const certificates1 = { url: a5 };
 const exhibitionModel1 = { url: a6 };
 const montessoriClass1 = { url: a7 };
 const culturalEvent1 = { url: a8 };
-const storytelling1 = { url: a1 };
+const storytelling1 = { url: a9 };
+const activity10 = { url: a10 };
+const activity11 = { url: a11 };
+const activity12 = { url: a12 };
+const activity13 = { url: a13 };
+const activity14 = { url: a14 };
+const activity15 = { url: a15 };
+const activity16 = { url: a16 };
+const activity17 = { url: a17 };
+const activity18 = { url: a18 };
+const activity19 = { url: a19 };
+const activity20 = { url: a20 };
+const activity21 = { url: a21 };
+const activity22 = { url: a22 };
+const activity23 = { url: a23 };
+
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -48,6 +78,20 @@ const all: Item[] = [
   { src: exhibitionModel1.url, cat: "Facilities", label: "Student Exhibition Model" },
   { src: schoolEvent1.url, cat: "Events", label: "School Stage Performance" },
   { src: culturalEvent1.url, cat: "Events", label: "Cultural Program" },
+  { src: activity10.url, cat: "Events", label: "School Activity 10" },
+{ src: activity11.url, cat: "Events", label: "School Activity 11" },
+{ src: activity12.url, cat: "Events", label: "School Activity 12" },
+{ src: activity13.url, cat: "Events", label: "School Activity 13" },
+{ src: activity14.url, cat: "Events", label: "School Activity 14" },
+{ src: activity15.url, cat: "Events", label: "School Activity 15" },
+{ src: activity16.url, cat: "Events", label: "School Activity 16" },
+{ src: activity17.url, cat: "Events", label: "School Activity 17" },
+{ src: activity18.url, cat: "Events", label: "School Activity 18" },
+{ src: activity19.url, cat: "Events", label: "School Activity 19" },
+{ src: activity20.url, cat: "Events", label: "School Activity 20" },
+{ src: activity21.url, cat: "Events", label: "School Activity 21" },
+{ src: activity22.url, cat: "Events", label: "School Activity 22" },
+{ src: activity23.url, cat: "Events", label: "School Activity 23" },
 ];
 
 function GalleryPage() {
